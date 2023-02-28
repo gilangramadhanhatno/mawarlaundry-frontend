@@ -3,7 +3,7 @@ import Logo from "../../assets/logo.png";
 
 import "./index.css";
 
-export default function Navbar() {
+export default function Header() {
   return (
     <header id="home" className="header_wrapper">
       {/* Navbar */}

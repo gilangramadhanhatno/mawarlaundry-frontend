@@ -1,10 +1,12 @@
 import React from "react";
-import Navbar from "../components/Navbar/index";
+import Header from "../components/Header/index";
+import LayananKami from "../components/LayananKami/index";
 
 export default function LandingPage() {
   return (
     <>
-      <Navbar />
+      <Header />
+      <LayananKami />
     </>
   );
 }
