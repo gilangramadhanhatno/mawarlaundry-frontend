@@ -5,8 +5,8 @@ import "./index.css";
 
 export default function Kontak() {
   return (
-    <sectio className="kontak">
+    <section className="kontak">
       <img src={map} alt="map-kontak" />
-    </sectio>
+    </section>
   );
 }

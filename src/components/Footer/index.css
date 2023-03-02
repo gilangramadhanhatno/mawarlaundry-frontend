@@ -1,0 +1,76 @@
+.footer {
+  padding: 50px 0;
+}
+
+.footer h3 {
+  font-size: 22px;
+  font-weight: 300;
+  color: #152c5b;
+}
+
+.footer ul li {
+  margin: -2px 0;
+  list-style: none;
+}
+
+.footer ul li a {
+  color: #b0b0b0;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer .jam-buka .jam li {
+  margin-left: -10px;
+  color: #4bc7f3;
+  font-size: 14px;
+  margin-top: 1px;
+}
+
+.footer .medsos a img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer .medsos a {
+  color: #b0b0b0;
+  text-decoration: none;
+}
+
+.footer .medsos a:hover {
+  text-decoration: underline;
+}
+
+.footer .medsos a span {
+  font-size: 14px;
+  margin-left: 8px;
+}
+
+@media (max-width: 992px) {
+  .footer .jam-buka .jam li {
+    margin-left: -220px;
+  }
+}
+
+@media (max-width: 786px) {
+  .footer .jam-buka .jam li {
+    margin-left: -150px;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer .jam-buka .jam li {
+    margin-left: -130px;
+  }
+
+  .footer .jam-buka {
+    margin-top: 20px;
+  }
+
+  .footer .alamat {
+    margin-top: 20px;
+  }
+}
