@@ -47,22 +47,6 @@ a {
   color: #4bc7f3;
 }
 
-.header_scrolled {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: #000;
-  opacity: 0.7;
-  box-shadow: 0 4px 6px 0 rgba(12, 0, 46, 0.05);
-  height: auto;
-}
-
-.header_scrolled .nav-item .nav-link.active,
-.header_scrolled .nav-item .nav-link:hover {
-  color: #ecd5b6;
-}
-
 .banner_wrapper {
   background-image: url("../../assets/banner.png");
   background-image: no-repeat;
@@ -96,4 +80,10 @@ a {
 
 .banner_wrapper .text_wrapper .btn-pickup:hover {
   background-color: #4bb9e1;
+}
+
+/* Navbar Scroll */
+.header_wrapper .navbar-scroll {
+  background-color: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }

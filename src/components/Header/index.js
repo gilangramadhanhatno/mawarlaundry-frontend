@@ -1,13 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import Logo from "../../assets/logo.png";
 
 import "./index.css";
 
 export default function Header() {
+  const [navbarScroll, setNavbarScroll] = useState(false);
+
+  const changeBg = () => {
+    if (window.scrollY >= 80) {
+      setNavbarScroll(true);
+    } else {
+      setNavbarScroll(false);
+    }
+  };
+  window.addEventListener("scroll", changeBg);
+
   return (
     <header id="home" className="header_wrapper">
       {/* Navbar */}
-      <nav className="navbar fixed-top  navbar-expand-lg ">
+      <nav className={navbarScroll ? "navbar fixed-top navbar-expand-lg navbar-scroll" : "navbar fixed-top navbar-expand-lg"}>
         <div className="container container-fluid">
           <a className="navbar-brand" href="/">
             <img src={Logo} alt="Mawar Laundry" />
