@@ -1,6 +1,6 @@
 .kontak {
-  max-width: 100vh;
-  max-height: 490px;
+  max-width: 100vw;
+  /* max-height: 490px; */
 }
 
 .kontak img {
