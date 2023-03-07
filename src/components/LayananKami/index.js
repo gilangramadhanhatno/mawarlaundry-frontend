@@ -34,7 +34,7 @@ export default function LayananKami() {
                   <img src={LaundrySatuan} alt="..." />
                 </div>
                 <div className="layanan">
-                  <p>Laundry Kiloan</p>
+                  <p>Laundry Satuan</p>
                 </div>
               </Link>
             </div>
@@ -46,7 +46,7 @@ export default function LayananKami() {
                   <img src={LaundrySepatu} alt="..." />
                 </div>
                 <div className="layanan">
-                  <p>Laundry Kiloan</p>
+                  <p>Laundry Sepatu</p>
                 </div>
               </Link>
             </div>
