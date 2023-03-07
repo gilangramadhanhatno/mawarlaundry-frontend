@@ -15,15 +15,24 @@ section .img-wrapper {
 }
 
 section .img-wrapper img {
-  width: 560px;
-  height: 700px;
+  width: 270px;
+  height: 350px;
 }
 
-.satuan .description {
+section .description {
   margin-top: 50px;
 }
 
-.satuan .btn-paket {
+section .description p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+section .description p span {
+  font-weight: 500;
+}
+
+section .btn-paket {
   background-color: #4bc7f3;
   color: #152c5b;
   font-size: 14px;
@@ -33,6 +42,6 @@ section .img-wrapper img {
   margin-top: 24px;
 }
 
-.satuan .btn-paket:hover {
+section .btn-paket:hover {
   background-color: #4bb9e1;
 }
