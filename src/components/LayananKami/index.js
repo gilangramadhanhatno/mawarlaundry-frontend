@@ -8,7 +8,7 @@ import "./index.css";
 
 export default function LayananKami() {
   return (
-    <div className="layanan-kami">
+    <section id="layanan-kami" className="layanan-kami">
       <div className="container">
         <div className="row">
           <div className="col-lg-3 col-md-12 d-flex justify-content-center align-items-center flex-column">
@@ -53,6 +53,6 @@ export default function LayananKami() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

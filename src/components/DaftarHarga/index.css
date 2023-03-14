@@ -1,0 +1,33 @@
+.daftar-harga {
+  margin-top: 130px;
+  padding-bottom: 50px;
+}
+
+.daftar-harga .harga {
+  color: #4bc7f3;
+  text-align: center;
+}
+
+.daftar-harga .img-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.daftar-harga .img-wrapper img {
+  width: 77px;
+  height: 109px;
+}
+
+.daftar-harga table {
+  margin-top: 30px;
+}
+
+.daftar-harga table .nama-paket {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.daftar-harga table .harga-paket {
+  font-weight: 500;
+}

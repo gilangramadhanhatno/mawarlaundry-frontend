@@ -1,3 +1,7 @@
+.layanan-kami {
+  padding: 50px 0;
+}
+
 .layanan-kami .judul {
   font-size: 60px;
   font-weight: 600;
@@ -12,10 +16,8 @@
 
 .layanan-kami .card {
   border-radius: 0;
-  margin-top: 50px;
   height: 350px;
   width: 270px;
-  margin-bottom: 50px;
 }
 
 .layanan-kami .img_wrapper {

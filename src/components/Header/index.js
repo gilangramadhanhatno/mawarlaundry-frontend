@@ -5,7 +5,7 @@ import "./index.css";
 
 export default function Header() {
   return (
-    <header id="home" className="header_wrapper">
+    <header id="beranda" className="header_wrapper">
       {/* Navbar */}
       <Navbar />
 

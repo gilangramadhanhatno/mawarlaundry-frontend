@@ -25,7 +25,7 @@ export default function Sepatu() {
                 sepatu tentu akan disesuaikan dengan bahan sepatu tersebut. Bahan sepatu suede (bahan sepatu yang berasal dari kulit hewan) akan beda cara membersihkannya dengan jenis sepatu sneaker yang gampang kotor.
               </p>
             </div>
-            <Link to="/harga-paket">
+            <Link to="/harga-laundry">
               <button className="btn btn-paket">LIHAT PAKET HARGA LAUNDRY</button>
             </Link>
           </div>

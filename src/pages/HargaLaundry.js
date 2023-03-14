@@ -1,13 +1,13 @@
 import React from "react";
+import DaftarHarga from "../components/DaftarHarga";
 import Footer from "../components/Footer";
-import Sepatu from "../components/ContentLaundry/Sepatu";
 import Navbar from "../components/Navbar";
 
-export default function LaundrySatuan() {
+export default function HargaLaundry() {
   return (
     <>
       <Navbar isCentered />
-      <Sepatu />
+      <DaftarHarga />
       <Footer />
     </>
   );

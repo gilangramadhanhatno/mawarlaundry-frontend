@@ -1,38 +1,46 @@
-section {
+section.satuan,
+section.sepatu {
   margin-top: 130px;
   padding-bottom: 50px;
 }
 
-section .jasa {
+section.satuan .jasa,
+section.sepatu .jasa {
   color: #4bc7f3;
   text-align: center;
 }
 
-section .img-wrapper {
+section.satuan .img-wrapper,
+section.sepatu .img-wrapper {
   display: flex;
   justify-content: center;
   margin-top: 30px;
 }
 
-section .img-wrapper img {
+section.satuan .img-wrapper img,
+section.sepatu .img-wrapper img {
   width: 270px;
   height: 350px;
 }
 
-section .description {
+section.satuan .description,
+section.sepatu .description {
   margin-top: 50px;
 }
 
-section .description p {
+section.satuan .description p,
+section.sepatu .description p {
   font-size: 16px;
   font-weight: 300;
 }
 
-section .description p span {
+section.satuan .description p span,
+section.sepatu .description p span {
   font-weight: 500;
 }
 
-section .btn-paket {
+section.satuan .btn-paket,
+section.sepatu .btn-paket {
   background-color: #4bc7f3;
   color: #152c5b;
   font-size: 14px;
@@ -42,6 +50,7 @@ section .btn-paket {
   margin-top: 24px;
 }
 
-section .btn-paket:hover {
+section.satuan .btn-paket:hover,
+section.sepatu .btn-paket:hover {
   background-color: #4bb9e1;
 }

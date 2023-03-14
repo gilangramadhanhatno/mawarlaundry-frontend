@@ -5,7 +5,7 @@ import "./index.css";
 
 export default function TentangKami() {
   return (
-    <div className="tentang-kami">
+    <div id="tentang-kami" className="tentang-kami">
       <div className="container">
         <div className="row">
           <div className="col-lg-3 d-flex justify-content-center">

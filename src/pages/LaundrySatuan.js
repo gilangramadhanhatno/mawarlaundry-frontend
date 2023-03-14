@@ -6,7 +6,7 @@ import Navbar from "../components/Navbar";
 export default function LaundrySatuan() {
   return (
     <>
-      <Navbar />
+      <Navbar isCentered />
       <Satuan />
       <Footer />
     </>

@@ -26,7 +26,7 @@ export default function Satuan() {
               </p>
               <p>Mawar Laundry melayani jasa laundry di wilayah Kebayoran Baru dan sekitarnya (Gunung, Keramat Pela, Gandaria Utara, Cipete Utara, Pulo, Melawai, Petogogan)</p>
             </div>
-            <Link to="/harga-paket">
+            <Link to="/harga-laundry">
               <button className="btn btn-paket">LIHAT PAKET HARGA LAUNDRY</button>
             </Link>
           </div>
